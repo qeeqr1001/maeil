@@ -32,6 +32,7 @@ while True:
                         cur.execute(sql)  
                         result = cur.fetchall() 
                         print(result) 
+                        print("수정")
                  
             else:             
                 print("일치하는 답변이 없습니다.") #키워드가(혹은 일치하는 답변이) 데이터베이스 안에 없을 경우
